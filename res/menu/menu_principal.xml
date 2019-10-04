@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuAddPaciente"
+        android:title="Pacientes"
+        android:showAsAction="always"
+        android:icon="@drawable/add_paciente"/>
+
+    <item
+        android:id="@+id/menuTaco"
+        android:title="Lista TACO"/>
+    
+    <item
+        android:id="@+id/menuSobre"
+        android:title="Sobre"/>
+    
+    <item
+        android:id="@+id/menuSair"
+        android:title="Sair"/>
+    
+</menu>

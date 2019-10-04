@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+        <LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+	
+			<EditText
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/textNomePac"
+				android:layout_marginRight="5dp"
+				android:layout_marginTop="5dp"
+				android:layout_marginLeft="5dp"
+				android:hint="Nome*"/>
+	
+			<Spinner
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/spSexo"
+				android:layout_marginLeft="5dp"
+				android:layout_marginRight="5dp"
+				android:layout_marginTop="10dp"/>
+	
+			<EditText
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:inputType="numberDecimal"
+				android:ems="10"
+				android:id="@+id/textIdade"
+				android:hint="Idade*"
+				android:layout_marginLeft="5dp"
+				android:layout_marginTop="10dp"/>
+	
+			<EditText
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:inputType="numberDecimal"
+				android:ems="10"
+				android:id="@+id/textPeso"
+				android:layout_marginLeft="5dp"
+				android:hint="Peso*"
+				android:layout_marginTop="10dp"/>
+	
+			<EditText
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:inputType="numberDecimal"
+				android:ems="10"
+				android:id="@+id/textAltura"
+				android:hint="Altura*"
+				android:layout_marginLeft="5dp"
+				android:layout_marginTop="10dp"/>
+	
+			<EditText
+			    android:id="@+id/textImc"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="5dp"
+			    android:layout_marginTop="10dp"
+			    android:clickable="false"
+			    android:ems="10"
+			    android:enabled="false"
+			    android:hint="IMC*"
+			    android:inputType="numberDecimal" />
+	
+			<Spinner
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/spCondFisica"
+				android:layout_marginLeft="5dp"
+				android:layout_marginRight="5dp"
+				android:layout_marginTop="10dp"/>
+	
+			<EditText
+			    android:id="@+id/textNee"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="5dp"
+			    android:layout_marginTop="10dp"
+			    android:clickable="false"
+			    android:ems="10"
+			    android:enabled="false"
+			    android:hint="NEE*"
+			    android:inputType="numberDecimal" />
+	
+		</LinearLayout>
+         
+    </ScrollView>
+
+</LinearLayout>
+

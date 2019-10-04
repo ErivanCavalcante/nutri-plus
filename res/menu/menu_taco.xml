@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/menuAddAlimento"
+        android:title="Alimentos"
+        android:showAsAction="always"
+        android:icon="@drawable/add_alimento"/>
+
+    <item
+        android:id="@+id/menuListaPacientes"
+        android:title="Lista Pacientes"/>
+    
+    <item
+        android:id="@+id/menuSobre"
+        android:title="Sobre"/>
+    
+    <item
+        android:id="@+id/menuSair"
+        android:title="Sair"/>
+
+</menu>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/textNomeAlim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:hint="Nome*" />
+
+            <EditText
+                android:id="@+id/textKcal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Kcal*"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/textCarbAlim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Carboidratos*"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/textLipidioAlim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Lipidios*"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/textProteinaAlim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Proteinas*"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/edtCalcio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Calcio(mg)"
+                android:inputType="numberDecimal" />
+                
+            <EditText
+                android:id="@+id/edtFerro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Ferro(mg)"
+                android:inputType="numberDecimal" />
+                
+            <EditText
+                android:id="@+id/edtSodio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Sodio(mg)"
+                android:inputType="numberDecimal" />
+                
+            <EditText
+                android:id="@+id/edtZinco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Zinco(mg)"
+                android:inputType="numberDecimal" />
+                
+            <EditText
+                android:id="@+id/edtPotassio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Potassio(mg)"
+                android:inputType="numberDecimal" />
+                
+            <EditText
+                android:id="@+id/edtVitaminaC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Vitamina C(mg)"
+                android:inputType="numberDecimal" />
+                
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
